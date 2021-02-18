@@ -12,7 +12,7 @@ inputprompt db "Enter the resistance numbers of the two subcircuits separated by
 three_float_format db "%lf%lf%lf",0
 
 outputResistances db "These resistances were received: %.15lf Ω, %.15lf Ω, %.15lf Ω.",10,0
-outputTotalR db "The resistances of the entire circuit is %.15lf.", 10, 0
+outputTotalR db "The resistances of the entire circuit is %.15lf Ω.", 10, 0
 
 goodbye db "The total resistance will be returned to the caller module.",10,0
 
